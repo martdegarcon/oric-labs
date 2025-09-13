@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "React useState basics",
+        "description": "Создать компонент, который использует useState для управления счётчиком.",
+        "solution": "const [count, setCount] = useState(0); // increment on button click",
+        "category": "React",
+        "level": "Beginner"
+    },
+    {
+        "id": "2",
+        "title": "TypeScript interface",
+        "description": "Определить интерфейс для объекта пользователя с полями name и age.",
+        "solution": "interface User { name: string; age: number; }",
+        "category": "TypeScript",
+        "level": "Beginner"
+    },
+    {
+        "id": "3",
+        "title": "Fetch API",
+        "description": "Сделать fetch-запрос к публичному API и вывести данные на экран.",
+        "solution": "const res = await fetch('https://api.example.com'); const data = await res.json();",
+        "category": "JavaScript",
+        "level": "Intermediate"
+    }
+]
