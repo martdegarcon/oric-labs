@@ -3,24 +3,42 @@
         "id": "1",
         "title": "React useState basics",
         "description": "Создать компонент, который использует useState для управления счётчиком.",
-        "solution": "const [count, setCount] = useState(0); // increment on button click",
-        "category": "React",
-        "level": "Beginner"
+        "category": "practice",
+        "difficulty": "easy"
     },
     {
         "id": "2",
         "title": "TypeScript interface",
         "description": "Определить интерфейс для объекта пользователя с полями name и age.",
-        "solution": "interface User { name: string; age: number; }",
-        "category": "TypeScript",
-        "level": "Beginner"
+        "category": "premium",
+        "difficulty": "easy"
     },
     {
         "id": "3",
         "title": "Fetch API",
         "description": "Сделать fetch-запрос к публичному API и вывести данные на экран.",
-        "solution": "const res = await fetch('https://api.example.com'); const data = await res.json();",
-        "category": "JavaScript",
-        "level": "Intermediate"
+        "category": "practice",
+        "difficulty": "easy"
+    },
+    {
+        "id": "4",
+        "title": "React useState basics",
+        "description": "Создать компонент, который использует useState для управления счётчиком.",
+        "category": "algo",
+        "difficulty": "easy"
+    },
+    {
+        "id": "5",
+        "title": "TypeScript interface",
+        "description": "Определить интерфейс для объекта пользователя с полями name и age.",
+        "category": "async",
+        "difficulty": "easy"
+    },
+    {
+        "id": "6",
+        "title": "Fetch API",
+        "description": "Сделать fetch-запрос к публичному API и вывести данные на экран.",
+        "category": "refactoring",
+        "difficulty": "easy"
     }
 ]

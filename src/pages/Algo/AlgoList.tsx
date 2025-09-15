@@ -1,9 +1,5 @@
-import React from 'react'
+import TaskPage from "../TaskPage/TaskPage";
 
-const AlgoList = () => {
-    return (
-        <div>AlgoList</div>
-    )
-}
+const AlgoList = () => <TaskPage title="Алгоритмы" category="algo" />;
 
 export default AlgoList

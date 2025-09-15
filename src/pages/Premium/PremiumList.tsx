@@ -1,9 +1,5 @@
-import React from 'react'
+import TaskPage from "../TaskPage/TaskPage";
 
-const PremiumList = () => {
-    return (
-        <div>PremiumList</div>
-    )
-}
+const PremiumList = () => <TaskPage title="Премиум" category="premium" />;
 
 export default PremiumList

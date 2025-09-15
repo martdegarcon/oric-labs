@@ -8,8 +8,8 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ className }) => {
     return (
-        <header className={`w-full ${className}`}>
-            <div className='flex items-center justify-between mx-auto max-w-[1440px] px-8 py-8 text-white'>
+        <header className={`w-full bg-gray-900 ${className}`}>
+            <div className='flex items-center justify-between mx-auto px-8 py-8 text-white'>
                 {/* logo */}
                 < Logo />
 

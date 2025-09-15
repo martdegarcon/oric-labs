@@ -1,9 +1,5 @@
-import React from 'react'
+import TaskPage from "../TaskPage/TaskPage";
 
-const RefactoringList = () => {
-    return (
-        <div>RefactoringList</div>
-    )
-}
+const RefactoringList = () => <TaskPage title="Рефакторинг" category="refactoring" />;
 
 export default RefactoringList

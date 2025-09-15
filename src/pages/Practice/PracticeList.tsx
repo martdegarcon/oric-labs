@@ -1,9 +1,5 @@
-import React from 'react'
+import TaskPage from "../TaskPage/TaskPage";
 
-const PracticeList = () => {
-    return (
-        <div>PracticeList</div>
-    )
-}
+const PracticeList = () => <TaskPage title="Практика" category="practice" />;
 
 export default PracticeList

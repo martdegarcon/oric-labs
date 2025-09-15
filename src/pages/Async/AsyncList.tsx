@@ -1,9 +1,5 @@
-import React from 'react'
+import TaskPage from "../TaskPage/TaskPage";
 
-const AsyncList = () => {
-    return (
-        <div>AsyncList</div>
-    )
-}
+const AsyncList = () => <TaskPage title="Асинхронность" category="async" />;
 
 export default AsyncList
